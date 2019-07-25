@@ -1,4 +1,5 @@
 require "pry"
+<<<<<<< HEAD
 
 def sort_array_asc(integers)
   integers.sort do |a, b|
@@ -6,6 +7,14 @@ def sort_array_asc(integers)
   end
 end
 
+=======
+def sort_array_asc(integers)
+  integers.sort do |a, b|
+    a <=> b
+  end
+end
+
+>>>>>>> 02b10b4728b11bea24507f6a1c0050b61e72bfbc
 def sort_array_desc(integers)
   integers.sort do |a, b|
     b <=> a  
@@ -28,6 +37,10 @@ end
 
 def kesha_maker(strings)
   new_array = []
+<<<<<<< HEAD
+=======
+  binding.pry
+>>>>>>> 02b10b4728b11bea24507f6a1c0050b61e72bfbc
   strings.each do |word|
     temp_array = word.chars
     temp_array[2].replace("$")
@@ -36,6 +49,7 @@ def kesha_maker(strings)
   end
   new_array
 end
+<<<<<<< HEAD
 
 def find_a(strings)
   new_array = []
@@ -66,4 +80,13 @@ def add_s(words)
 end 
 
  
+=======
+    
+    
+      
+
+
+
+
+>>>>>>> 02b10b4728b11bea24507f6a1c0050b61e72bfbc
     
